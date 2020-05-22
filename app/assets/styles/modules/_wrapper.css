@@ -9,6 +9,22 @@
   &--medium {
     max-width: 975px;
   }
+  &--no-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+    @mixin atMedium {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+  &--no-padding-until-large {
+    padding-left: 0;
+    padding-right: 0;
+    @mixin atLarge {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
   /*cualquier clase que wrapper que esté dentro de
    una clase wrapper*/
   .wrapper {
