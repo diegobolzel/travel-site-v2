@@ -1,4 +1,5 @@
 import "../styles/styles.css";
+import "lazysizes";
 //alert("Hello, this is just a test.!!!");
 import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnscroll";
